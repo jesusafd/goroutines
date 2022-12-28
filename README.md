@@ -1,10 +1,15 @@
-# Ejercicio para practica de goroutine
+# Ejercicios para practica de goroutine
+
+## Ejercicio 1: juego con goroutines
 Realizar un juego en el cual existan dos persojes
 * Jugador
 * Enemigo
 
 
-### Caracteristicas del juego
+### Caracteristicas del ejercicio 1
+Diseñar un jeugo con las siguientes caracteristicas, empleando goroutines:
+
+
 * Los personajes se golpearan uno a otro
 * Los personajes no tomaran turnos para golpearse, si no que una vez cumplido el tiempo de ataque el personaje atacara
 * el tiempo de ataque sera de 1 segundo para cada juego
@@ -20,3 +25,21 @@ Familizarese con el uso de goroutines y poner en practica conceptos basicos de e
 * canales
 * select
 * mutex
+
+## Ejercicio 2: adivinar el numero
+Realizar un juego en el cual existan dos jugadores (goroutines), donde cada uno genrar un numero aleatorio y uno
+tratara de adivnar el numero del otro jugador
+
+
+### Caracteristicas del juego
+* Cada jugador generara un nuemro, en este caso solo un adiviara el numero
+* Cuando el jugadro adivine el numero ganara
+* El numero aleatorio debera ser generado aleatoriamente
+* Debe hacer uso de conceptos como range, mutex, canales y select
+
+#### Finalidad el ejercicio 
+Familizarese con el uso de goroutines y poner en practica conceptos basicos de estas como lo son:
+* canales
+* select
+* mutex
+* range
